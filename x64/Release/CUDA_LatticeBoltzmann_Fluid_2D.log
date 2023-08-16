@@ -1,0 +1,18 @@
+﻿  Compiling CUDA source file RenderToTexture_CUDA+GL_kernels.cu...
+  
+  C:\Users\Sean\source\repos\A_Rendering_Projects\CUDA_LatticeBoltzmann_Fluid_2D>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include"     --keep-dir x64\Release  -maxrregcount=0   --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS   /MD " -Xcompiler "/Fdx64\Release\vc143.pdb" -o C:\Users\Sean\source\repos\A_Rendering_Projects\CUDA_LatticeBoltzmann_Fluid_2D\x64\Release\RenderToTexture_CUDA+GL_kernels.cu.obj "C:\Users\Sean\source\repos\A_Rendering_Projects\CUDA_LatticeBoltzmann_Fluid_2D\RenderToTexture_CUDA+GL_kernels.cu" 
+  RenderToTexture_CUDA+GL_kernels.cu
+  tmpxft_00004f44_00000000-7_RenderToTexture_CUDA+GL_kernels.cudafe1.cpp
+C:\Users\Sean\source\repos\A_Rendering_Projects\CUDA_LatticeBoltzmann_Fluid_2D\RenderToTexture_CUDA+GL_kernels.cu(397): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Sean\source\repos\A_Rendering_Projects\CUDA_LatticeBoltzmann_Fluid_2D\RenderToTexture_CUDA+GL_kernels.cu(428): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Sean\source\repos\A_Rendering_Projects\CUDA_LatticeBoltzmann_Fluid_2D\RenderToTexture_CUDA+GL_kernels.cu(428): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Sean\source\repos\A_Rendering_Projects\CUDA_LatticeBoltzmann_Fluid_2D\RenderToTexture_CUDA+GL_kernels.cu(428): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Sean\source\repos\A_Rendering_Projects\CUDA_LatticeBoltzmann_Fluid_2D\RenderToTexture_CUDA+GL_kernels.cu(428): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  RenderToTexture_CUDA+GL.cpp
+     Creating library C:\Users\Sean\source\repos\A_Rendering_Projects\CUDA_LatticeBoltzmann_Fluid_2D\x64\Release\CUDA_LatticeBoltzmann_Fluid_2D.lib and object C:\Users\Sean\source\repos\A_Rendering_Projects\CUDA_LatticeBoltzmann_Fluid_2D\x64\Release\CUDA_LatticeBoltzmann_Fluid_2D.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 354 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  CUDA_LatticeBoltzmann_Fluid_2D.vcxproj -> C:\Users\Sean\source\repos\A_Rendering_Projects\CUDA_LatticeBoltzmann_Fluid_2D\x64\Release\CUDA_LatticeBoltzmann_Fluid_2D.exe
