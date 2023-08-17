@@ -6,6 +6,8 @@ Installation:
 
 &emsp;Unzip the Library.zip and place "Common" folder inside the project folder.
 
+&emsp;Go to CUDA_LatticeBoltzmann_Fluid_2D\x64\Release and click "CUDA_LatticeBoltzmann_Fluid_2D.exe" 
+
 &emsp;It appears that "freeglut.dll" and "glew64.dll" has to be present in the "x64 -> Release" or "x64 -> Debug" to build it.
 
 Demo:
