@@ -19,6 +19,6 @@ Installation:
   &emsp;Even the unoptimized code seems to take about 150 microseconds in all the 12 kernels.
   <img src="Examples/NsightCompute.png?raw=true" width="1000">
   Below is a screen capture from Nsight Compute:
-  &emsp;adwadw
+  &emsp;The duration is in micro-seconds.
 </div>
 
