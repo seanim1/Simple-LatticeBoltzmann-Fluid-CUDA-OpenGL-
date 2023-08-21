@@ -12,7 +12,7 @@ Installation:
 
 &emsp;It appears that "freeglut.dll" and "glew64.dll" has to be present in the "x64 -> Release" or "x64 -> Debug" to build it.
 
-Steps:
+Steps:<br>
 DriftNorth()
 
 DriftNorthEast()
