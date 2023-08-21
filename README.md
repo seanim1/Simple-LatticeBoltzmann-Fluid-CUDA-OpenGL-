@@ -15,7 +15,10 @@ Installation:
 <div class="row">
   Velocity:
   <img src="Examples/FluidVelocity.png?raw=true" width="1000">
+  Performance:
+  &emsp;Even the unoptimized code seems to take about 150 microseconds in all the 12 kernels.
+  <img src="Examples/NsightCompute.png?raw=true" width="1000">
+  Below is a screen capture from Nsight Compute:
+  &emsp;adwadw
 </div>
 
-Performance:
-&emsp;Even the unoptimized code seems to take about 150 microseconds in all the 12 kernels.
