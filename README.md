@@ -41,4 +41,5 @@ Each thread is responsible for one pixel. It appears that threads within a block
   <br>&emsp;The duration is in micro-seconds.
   <img src="Examples/NsightCompute.png?raw=true" width="1000">
 </div>
-
+<br>
+I am getting "tail effect" warning from all kernels except "SolveTimeStep()" and "Momentum()"<br>
