@@ -43,3 +43,6 @@ Each thread is responsible for one pixel. It appears that threads within a block
 </div>
 <br>
 I am getting "tail effect" warning from all kernels except "SolveTimeStep()" and "Momentum()"<br>
+<div class="row">
+  <img src="Examples/ComputeSummary.png?raw=true" width="1000">
+</div>
