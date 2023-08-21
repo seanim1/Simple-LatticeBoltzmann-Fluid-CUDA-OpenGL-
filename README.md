@@ -13,30 +13,19 @@ Installation:
 &emsp;It appears that "freeglut.dll" and "glew64.dll" has to be present in the "x64 -> Release" or "x64 -> Debug" to build it.
 
 Steps:<br>
-DriftNorth()
-
-DriftNorthEast()
-
-DriftEast()
-
-DriftSouthEast()
-
-DriftSouth()
-
-DriftSouthWest()
-
-DriftWest()
-
-DriftNorthWest()
-
-Momentum()
-
-ApplyBoundary()
-
-SolveTimeStep()
-
-DisplayVelocity()
-
+Drift:<br>
+&emsp;DriftNorth()<br>
+&emsp;DriftNorthEast()<br>
+&emsp;DriftEast()<br>
+&emsp;DriftSouthEast()<br>
+&emsp;DriftSouth()<br>
+&emsp;DriftSouthWest()<br>
+&emsp;DriftWest()<br>
+&emsp;DriftNorthWest()<br>
+Momentum()<br>
+ApplyBoundary()<br>
+SolveTimeStep()<br>
+DisplayVelocity()<br>
 <div class="row">
   Velocity:
   <img src="Examples/FluidVelocity.png?raw=true" width="1000">
