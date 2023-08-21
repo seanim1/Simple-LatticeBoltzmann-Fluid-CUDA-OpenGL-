@@ -26,6 +26,12 @@ Momentum()<br>
 ApplyBoundary()<br>
 SolveTimeStep()<br>
 DisplayVelocity()<br>
+<br>
+A kernel grid contains as many blocks as window's height<br>
+A block contains as many threads as a window's width<br>
+This means each thread block is responsible for each row of the image. It appears that blocks can begin in any order<br>
+Each thread is responsible for one pixel. It appears that threads within a block print sequentially, although it does not mean threads are sequential<br>
+<br>
 <div class="row">
   Velocity:
   <img src="Examples/FluidVelocity.png?raw=true" width="1000">
