@@ -36,7 +36,7 @@ Each thread is responsible for one pixel. It appears that threads within a block
   Velocity:
   <img src="Examples/FluidVelocity.png?raw=true" width="1000">
   Performance:
-  <br>&emsp;Even the unoptimized code seems to take about 150 microseconds in all the 12 kernels.
+  <br>&emsp;For (512 x 512), Even the unoptimized code seems to take about 150 microseconds in all the 12 kernels.
   <br>Below is a screen capture from Nsight Compute:
   <br>&emsp;The duration is in micro-seconds.
   <img src="Examples/NsightCompute.png?raw=true" width="1000">
